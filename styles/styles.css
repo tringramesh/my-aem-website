@@ -39,6 +39,8 @@
 
   /* nav height */
   --nav-height: 64px;
+  --header-max-width: 1440px;
+  --page-max-content-width: 1440px;
 }
 
 @font-face {
@@ -121,7 +123,7 @@ main pre {
 }
 
 /* links */
-a:any-link {
+/* a:any-link {
   color: var(--link-color);
   text-decoration: none;
 }
@@ -129,10 +131,10 @@ a:any-link {
 a:hover {
   text-decoration: underline;
   color: var(--link-hover-color);
-}
+} */
 
 /* buttons */
-a.button:any-link, button {
+/* a.button:any-link {
   font-family: var(--body-font-family);
   display: inline-block;
   box-sizing: border-box;
@@ -166,7 +168,7 @@ a.button.secondary, button.secondary {
   background-color: unset;
   border: 2px solid currentcolor;
   color: var(--text-color)
-}
+} */
 
 main img {
   max-width: 100%;
@@ -198,7 +200,7 @@ main .section {
 
 @media (width >= 900px) {
   .section > div {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
   }
 }
