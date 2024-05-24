@@ -4,10 +4,12 @@ footer {
   font-size: var(--body-font-size-s);
   color: white;
 }
+
 footer .footer {
   max-width: var(--page-max-content-width);
   margin: auto;
 }
+
 footer h3 {
   font-size: .875rem;
   line-height: 1.125rem;
@@ -16,10 +18,12 @@ footer h3 {
   font-weight: 400;
   margin-block-start: 0;
 }
+
 footer ul{
   list-style: none;
   padding: 0;
 }
+
 footer ul li a {
   margin: 0;
   padding: 0;
@@ -27,6 +31,7 @@ footer ul li a {
   color: white;
   text-decoration: none;
 }
+
 footer .footer .default-content-wrapper p {
   margin: 0;
   text-align: center;
@@ -34,15 +39,18 @@ footer .footer .default-content-wrapper p {
     line-height: .875rem;
     letter-spacing: .05em;
 }
+
 footer .footer .columns {
   padding-top: 1rem;
 }
+
 footer .footer .columns > div{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-flow: row wrap;
 }
+
 footer .footer .columns > div div:nth-child(4) {
   display: flex;
   flex-direction: column;
